@@ -30,7 +30,7 @@ variable "CONSUL_MASTER_TOKEN" {
 
 
 variable "CONSUL_SERVER_CLUSTER_VM_COUNT" {
-  default = 3
+  default = 5
 }
 
 variable "CONSUL_SERVER_CLUSTER_VM_SIZE" {
