@@ -2,4 +2,5 @@
 
 terraform apply \
   -input=false \
-  -auto-approve "tfplan"
+  -auto-approve "tfplan" \
+  ./terraform
